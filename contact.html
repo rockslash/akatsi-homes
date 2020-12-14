@@ -46,6 +46,14 @@ h3{
   background-color:turquoise;
   padding:10px;
 }
+#submit{
+  background-color:blue;
+  border-radius: 5px;
+  border-style:solid;
+  border-color:blue;
+  padding: 2px;
+  
+}
 .form{
   border: 2px solid black;
   border-radius: 10px;
@@ -114,7 +122,7 @@ function navigate() {
   if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
   return true; }
   </script>
-  <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+  <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="8">
   <tbody><tr> <td>
   <label for="Name">Name:</label>
   </td> <td>
@@ -134,11 +142,13 @@ function navigate() {
   </td> </tr> <tr> <td>
    required fields
   </td> <td>
-  <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">made by 100forms.com</a></div>
-  <input name="skip_Submit" type="submit" value="Submit">
+  <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+  <input name="skip_Submit" id="submit"type="submit" value="Submit">
   <script src="https://www.100forms.com/js/FORMKEY:5UYFDJYGP8SW/SEND:my@email.com" type="text/javascript"></script><input type="hidden" name="formKey100" id="formKey100" value="5UYFDJYGP8SW"><input type="hidden" name="blnk100" id="blnk100" value="n"><input type="hidden" name="formKey100" id="formKey100" value="5UYFDJYGP8SW"><input type="hidden" name="blnk100" id="blnk100" value="l">
   </td> </tr>
   </tbody></table>
+  <script type="text/javascript" src="https://www.100forms.com/js/FORMKEY:YKC9ZNHK64KE/SEND:rollslash@protonmail.com"></script>
+  <a href="https://www.100forms.com" id="lnk100" title="web forms"></a>
 </form>
 
 
