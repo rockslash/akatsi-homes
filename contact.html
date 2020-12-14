@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
+<html><head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" "https://goo.io/AAoApz7"
-<style>
+<link rel="stylesheet" "https:="" goo.io="" aaoapz7"="" <style="">
 <style>
   
 body {
@@ -49,7 +46,13 @@ h3{
   background-color:turquoise;
   padding:10px;
 }
-
+.form{
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(133, 209, 228);
+  text-align:center;
+  overflow:hidden;
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -76,8 +79,8 @@ h3{
 <body>
 
 <div class="topnav" id="myTopnav">
-  <h3>Akatsi Homes</h3>
-  <a href="index.html" >Home</a>
+  <h3>Raycans Homes</h3>
+  <a href="index.html">Home</a>
   <a href="features.html">Features</a>
   <a href="contact.html" class="active">Contact</a>
   <a href="pay.html">Pay</a>
@@ -101,9 +104,43 @@ function navigate() {
 }
 </script>
 <h1>Contact</h1>
-<form action "form.php">
-  
-</form>
-</body>
-</html>
 
+<form class = "form" action="https://www.100forms.com/s/fa1d72eb-87dc-4cf5-a77f-62f80790800a" id="5UYFDJYGP8SW" method="post" onsubmit="return ValidateForm(this);" class="form">
+  <script type="text/javascript">
+  function ValidateForm(frm) {
+  if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+  if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+  if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+  if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+  return true; }
+  </script>
+  <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
+  <tbody><tr> <td>
+  <label for="Name">Name:</label>
+  </td> <td>
+  <input name="Name" type="text" maxlength="60" style="width:100%;max-width:250px;">
+  </td> </tr> <tr> <td>
+  <label for="PhoneNumber">Phone number:</label>
+  </td> <td>
+  <input name="PhoneNumber" type="text" maxlength="43" style="width:100%;max-width:250px;">
+  </td> </tr> <tr> <td>
+  <label for="FromEmailAddress">Email address:</label>
+  </td> <td>
+  <input name="FromEmailAddress" type="text" maxlength="90" style="width:100%;max-width:250px;">
+  </td> </tr> <tr> <td>
+  <label for="Comments">Comments:</label>
+  </td> <td>
+  <textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;"></textarea>
+  </td> </tr> <tr> <td>
+   required fields
+  </td> <td>
+  <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">made by 100forms.com</a></div>
+  <input name="skip_Submit" type="submit" value="Submit">
+  <script src="https://www.100forms.com/js/FORMKEY:5UYFDJYGP8SW/SEND:my@email.com" type="text/javascript"></script><input type="hidden" name="formKey100" id="formKey100" value="5UYFDJYGP8SW"><input type="hidden" name="blnk100" id="blnk100" value="n"><input type="hidden" name="formKey100" id="formKey100" value="5UYFDJYGP8SW"><input type="hidden" name="blnk100" id="blnk100" value="l">
+  </td> </tr>
+  </tbody></table>
+</form>
+
+
+
+</body></html>
